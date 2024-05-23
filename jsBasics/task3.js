@@ -7,10 +7,12 @@
 // Виведіть усі змінні в консоль
 
 let userAge = 20;
-let adult = (userAge > 18? true: false);
+let isAdult = (userAge > 18? true: false);
 
 console.log('Age of user is:', userAge);
-console.log('Is user adult?', adult)
+console.log('Is user adult?', isAdult)
 
-let adult1 = adult;
-if (adult1? console.log("Is user adult? \n-Yes"): console.log("No"));
+let isAdult1 = isAdult;
+(isAdult1? console.log("Is user adult? \n-Yes"): console.log("No"));
+//без if и короче запись
+console.log(`Is user adult? \n${isAdult1 ? "-Yes" : "-No"}`)
