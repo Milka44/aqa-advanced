@@ -6,23 +6,17 @@
 Реалізуйте функцію трьома способами (function declaration, function expression, arrow function)*/3
 
 //fuction declaration
-function rectangleSquare(width,height) {
-   return width * height;
-}
-console.log(rectangleSquare(5,6))
+function checkRectangleSquare(width,height) {return width * height;}
+console.log(checkRectangleSquare(5,6))
 
 //function expression
-const rectangleSquare1 = function(width,height) {
-    return width * height;
-}
-console.log(rectangleSquare1(5,8))
+const checkRectangleSquare1 = function(width,height) {return width * height;}
+console.log(checkRectangleSquare1(5,8))
 
 //arrow function expression
-const rectangleSquare2 = (width,height) => {
-    return width * height;
-}
-console.log(rectangleSquare1(5,10))
+const checkRectangleSquare2 = (width,height) => {return width * height;}
+console.log(checkRectangleSquare1(5,10))
 
 //Concise arrow function expression
-const rectangleSquare3 = (width,height) => width * height;
-console.log(rectangleSquare1(7,8))
+const checkRectangleSquare3 = (width,height) => width * height;
+console.log(checkRectangleSquare1(7,8))
