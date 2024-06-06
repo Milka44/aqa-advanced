@@ -23,3 +23,7 @@ for (let user of users) {
     let {userName, email, age} = user;
   console.log(`Name: ${userName}, Email: ${email}, Age: ${age}`)
 }
+//або одразу в циклі (викладач)
+for (let {userName, email, age} of users) {
+  console.log(`Name: ${userName}, Email: ${email}, Age: ${age}`)
+}
