@@ -6,13 +6,12 @@
 Викличте вашу функцію з аргументами 25 і 15, і виведіть результат (чи є особа дорослою) в консоль для кожного випадку.*/
 
 function ageCheck(age) {
-    if (age >= 18) {
-console.log('true')
-    return;
-};
-console.log('false');
+	if (age >= 18) {
+		console.log("true");
+		return;
+	}
+	console.log("false");
 }
 
 ageCheck(25);
 ageCheck(15);
-    

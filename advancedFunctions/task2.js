@@ -6,14 +6,13 @@
 // Фунція повинна викликатися, доки num не стане менше або рівне 0.
 // Викличте вашу функцію з аргументом, наприклад, 5, щоб почати рекурсивний лічильник.
 
-
 function someFunc(num) {
-    console.log("Current value of num:", num);
-    if (num > 0) {
-        return someFunc(num - 1);
-    }
-    return num; 
+	console.log("Current value of num:", num);
+	if (num > 0) {
+		return someFunc(num - 1);
+	}
+	return num;
 }
 
 const result = someFunc(5);
-console.log("Final result:", result); 
+console.log("Final result:", result);

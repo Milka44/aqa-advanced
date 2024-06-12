@@ -6,19 +6,19 @@ ordered - кількість одиниць товару в замовленні
 Якщо ordered дорівнює нулю — повернути рядок з повідомленням - “Your order is empty”
 У разі якщо товарів на складі вистачає — повернути рядок з повідомленням - “Your order is accepted”*/
 
-function checkOrder(available,ordered) {
-    if(available < ordered) {
-        console.log('Your order is too large, we don’t have enough goods.')
-        return;
-    }
-       
-    if(ordered === 0){
-        console.log('Your order is empty')
-        return;
-    }
-    console.log('Your order is accepted')    
+function checkOrder(available, ordered) {
+	if (available < ordered) {
+		console.log("Your order is too large, we don’t have enough goods.");
+		return;
+	}
+
+	if (ordered === 0) {
+		console.log("Your order is empty");
+		return;
+	}
+	console.log("Your order is accepted");
 }
 
-checkOrder(4,5);
-checkOrder(5,5);
-checkOrder(4,0);
+checkOrder(4, 5);
+checkOrder(5, 5);
+checkOrder(4, 0);
