@@ -7,5 +7,5 @@
 // Виведіть отриману суму на консоль.
 
 const numbers = [10, 20, 30, 40, 50];
-const sumOfNumbers = numbers.reduce((accumulator,currentNumber) => accumulator + currentNumber,0)
-console.log('Som of numbers:',sumOfNumbers)
+const sumOfNumbers = numbers.reduce((accumulator, currentNumber) => accumulator + currentNumber, 0);
+console.log("Som of numbers:", sumOfNumbers);

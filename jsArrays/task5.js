@@ -12,4 +12,4 @@ const firstArray = [1, 2, 3, 4];
 const secondArray = [10, 20, 30, 40];
 
 const newArray = firstArray.concat(secondArray);
-console.log('New array:',newArray)
+console.log("New array:", newArray);

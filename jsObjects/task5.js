@@ -4,26 +4,21 @@
 // Зробіть деструктуризацію в циклі
 
 let users = [
-{userName:"John",
-email:"john@gm.com",
-age:"40"
-},
-{userName:"Mary",
-email:"mary@gm.com",
-age:"25"
-}]
+	{ userName: "John", email: "john@gm.com", age: "40" },
+	{ userName: "Mary", email: "mary@gm.com", age: "25" },
+];
 
 users.push({
-userName:"Ben",
-email:"beny@gm.com",
-age:"32"
-})
+	userName: "Ben",
+	email: "beny@gm.com",
+	age: "32",
+});
 
 for (let user of users) {
-    let {userName, email, age} = user;
-  console.log(`Name: ${userName}, Email: ${email}, Age: ${age}`)
+	let { userName, email, age } = user;
+	console.log(`Name: ${userName}, Email: ${email}, Age: ${age}`);
 }
 //або одразу в циклі (викладач)
-for (let {userName, email, age} of users) {
-  console.log(`Name: ${userName}, Email: ${email}, Age: ${age}`)
+for (let { userName, email, age } of users) {
+	console.log(`Name: ${userName}, Email: ${email}, Age: ${age}`);
 }
