@@ -103,7 +103,7 @@ function divideNumbers(numerator, denominator) {
 	if (typeof numerator !== "number") {
 		throw new Error("Numerator must be a number");
 	}
-	return (result = numerator / denominator);
+	return numerator / denominator;
 }
 
 const testCases = [
